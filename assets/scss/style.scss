@@ -1,0 +1,32 @@
+.navbar-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 70px;
+	width: 100%;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.navbar-name {
+	margin-left: 10px;
+	text-transform: uppercase;
+}
+
+.navbar-menu {
+	display: inline;
+}
+
+.menu {
+	display: flex;
+	list-style-type: none;
+	li {
+		padding-top: 10px;
+		padding-right: 20px;
+	}
+}
