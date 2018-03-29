@@ -6,26 +6,27 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: 80px;
+	height: 82px;
 	width: 100%;
-	border-bottom: 1px solid #ebebeb;
+	border-bottom: 1px solid lightgrey;
 }
 
 .navbar-name {
+	margin-top: -5px;
 	margin-left: 25px;
 	margin-right: 25px;
 	text-transform: uppercase;
-	font-size: 120%;
+	font-size: 135%;
 	a {
 		text-decoration: none;
-		color: black;
+		color: #18121E;
 	}
 }
 
 .menu {
 	a {
 		font-size: 135%;
-		color: black;
+		color: #18121E;
 		text-decoration: none;
 		padding-top: 28px;
 		padding-right: 20px;
@@ -60,7 +61,9 @@ body {
 }
 
 
-@media screen and (max-width: 920px){
+/* Under 920px */
+
+@media screen and (max-width: 919px){
 	.navbar-container {
 		height: 140px;
 	}
@@ -97,7 +100,7 @@ body {
 @media screen and (max-width: 490px) {
 	.navbar-name a {color:blue;}
 	.navbar-container {
-		height: 160px;
+		height: 165px;
 	}
 	.menu a {
 		margin-top: 15px;
@@ -110,7 +113,7 @@ body {
 @media screen and (max-width: 360px) {
 	.navbar-name a {color:red;}
 	.navbar-container {
-		height: 160px;
+		height: 165px;
 	}
 	.menu a {
 		padding-right: 15px;
