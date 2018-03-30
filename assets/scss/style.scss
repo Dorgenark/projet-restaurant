@@ -62,10 +62,15 @@ body {
 }
 
 .titre-header {
+	font-size: 160%;
 	position: absolute;
-	text-align: center;
-	width: 99%;
-	top: 350px;
+	margin-left: 4%;
+	margin-right: 60%;
+	padding: 7px;
+	top: 120px;
+	color: #002B33;
+	background-color: #C4DFE6;
+	opacity: 0.5;
 }
 
 
@@ -110,6 +115,10 @@ body {
 	.img-header {
 		margin-top: 60px;
 	}
+
+	.titre-header {
+		top: 160px;
+	}
 }
 
 
@@ -122,6 +131,10 @@ body {
     .img-header {
 		margin-top: 70px;
 	}
+
+	.titre-header {
+		margin-right: 40%;
+	}
 }
 
 
@@ -133,6 +146,10 @@ body {
 
     .img-header {
 		margin-top: 80px;
+	}
+
+	.titre-header {
+		margin-right: 70%;
 	}
 }
 
@@ -149,6 +166,10 @@ body {
 	.img-header {
 		margin-top: 115px;
 	}
+
+	.titre-header {
+		top: 180px;
+	}
 }
 
 
@@ -160,5 +181,9 @@ body {
 
     .img-header {
 		margin-top: 130px;
+	}
+
+	.titre-header {
+		top: 170px;
 	}
 }
