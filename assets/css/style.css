@@ -100,7 +100,8 @@ body {
     margin-top: 70px; }
 
   .titre-header {
-    margin-right: 40%; } }
+    margin-right: 40%;
+    opacity: 0.6; } }
 @media screen and (max-width: 550px) {
   .menu a {
     margin-right: 10px;
