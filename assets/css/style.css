@@ -19,7 +19,7 @@ body {
   font-size: 135%; }
   .navbar-name a {
     text-decoration: none;
-    color: #086975; }
+    color: #075F6B; }
   .navbar-name a img {
     position: absolute;
     margin-top: 4px;
@@ -47,6 +47,11 @@ body {
   z-index: -1;
   width: 100%;
   margin-left: -8px; }
+
+.titre-header {
+  position: absolute;
+  right: 0px;
+  bottom: 0px; }
 
 /* Media queries : */
 @media screen and (min-width: 920px) {
