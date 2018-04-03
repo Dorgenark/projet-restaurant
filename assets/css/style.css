@@ -4,6 +4,7 @@ body {
 
 .navbar-container {
   position: absolute;
+  z-index: 10;
   top: 0;
   left: 0;
   height: 82px;
@@ -43,9 +44,8 @@ body {
   border-bottom: 2.8px solid #086469; }
 
 .img-header {
-  position: absolute;
   z-index: -1;
-  width: 100%;
+  width: 100vw;
   margin-left: -8px;
   opacity: 0.9; }
 
@@ -60,7 +60,54 @@ body {
   background-color: #C4DFE6;
   opacity: 0.5; }
 
-/* Media queries : */
+.texte {
+  margin-top: -30px;
+  padding: 30px;
+  padding-top: 50px;
+  margin-right: 5%;
+  margin-left: 5%;
+  background-color: white;
+  opacity: 0.98; }
+  .texte h3, .texte p {
+    padding-right: 9%;
+    text-align: justify; }
+  .texte h3 {
+    color: #002B33;
+    font-size: 150%;
+    padding-left: 10%;
+    padding-bottom: 2%; }
+  .texte p {
+    font-size: 130%;
+    padding-left: 7%;
+    padding-bottom: 5%;
+    line-height: 1.6; }
+  .texte br {
+    margin-bottom: 10px; }
+
+.totop {
+  margin: 0 auto;
+  display: table;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 150%;
+  padding: 13px;
+  margin-top: -10px;
+  background-color: #075F6B;
+  opacity: 0.99; }
+  .totop a {
+    padding-right: 5px;
+    color: white;
+    text-decoration: none; }
+  .totop b {
+    padding-right: 5px;
+    font-weight: lighter; }
+
+.totop:hover {
+  background-color: #06545E; }
+
+/*
+	Media queries :
+*/
 /* Min-width */
 @media screen and (min-width: 920px) {
   .navbar {
@@ -90,7 +137,13 @@ body {
     margin-top: 60px; }
 
   .titre-header {
-    top: 160px; } }
+    top: 160px; }
+
+  .texte {
+    margin-top: -20px;
+    padding: 25px; }
+    .texte h3 {
+      padding-left: 13%; } }
 @media screen and (max-width: 600px) {
   .menu a {
     margin-right: 15px;
@@ -124,7 +177,16 @@ body {
     margin-top: 115px; }
 
   .titre-header {
-    top: 180px; } }
+    top: 180px; }
+
+  .texte {
+    margin-top: -15px;
+    padding: 15px; }
+    .texte h3, .texte p {
+      padding-right: 9%;
+      text-align: left; }
+    .texte h3 {
+      padding-left: 10%; } }
 @media screen and (max-width: 360px) {
   .menu a {
     margin-right: 15px;
