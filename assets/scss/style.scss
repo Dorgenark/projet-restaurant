@@ -3,6 +3,8 @@ body {
 	background-color: #C4DFE6;
 }
 
+
+/* MENU NAVBAR */
 .navbar-container {
 	position: absolute;
 	z-index: 10;
@@ -54,13 +56,8 @@ body {
 	}
 }
 
-.img-header {
-	z-index: -1;
-	width: 100vw;
-	margin-left: -8px;
-	opacity: 0.9;
-}
 
+/* HEADER + IMAGE */
 .titre-header {
 	font-size: 160%;
 	position: absolute;
@@ -73,6 +70,24 @@ body {
 	opacity: 0.5;
 }
 
+.img-header {
+	z-index: -1;
+	width: 100vw;
+	margin-left: -8px;
+	opacity: 0.9;
+}
+
+
+/* CONTENU */
+.bloc {
+	display: block;
+	margin-top: 82px;
+	padding: 30px;
+	padding-top: 50px;
+	margin-right: 5%;
+	margin-left: 5%;
+	background-color: white;
+}
 
 .texte {
 	margin-top: -30px;
@@ -88,7 +103,7 @@ body {
 	}
 	h3 {
 		color: #002B33;
-		font-size: 150%;
+		font-size: 160%;
 		padding-left: 10%;
 		padding-bottom: 2%;
 	}
@@ -104,6 +119,7 @@ body {
 }
 
 
+/* BOUTON TOP */
 .totop {
 	margin: 0 auto;
 	display: table;
@@ -131,11 +147,54 @@ body {
 }
 
 
-/*
-	Media queries :
-*/
+/* CARTE */
+.menu-body {
+	max-width: 680px;
+	margin: 0 auto;
+	display: block;
+	color: rgb(92, 92, 92);
+}
+ 
+.menu-section {
+	margin-bottom: 80px;
+}
+ 
+.menu-section-title {
+	display: block;
+	text-align: center;
+	margin: 20px 0; 
+	font-size: 270%;
+	text-transform: uppercase;
+	color: #06545E;
+}
+ 
+.menu-item {
+	margin: 45px 0;
+	font-size: 18px;
+}
+ 
+.menu-item-name{
+	font-weight: bold;
+	border-bottom: 2px dotted rgb(213, 213, 213);
+}
+ 
+.menu-item-description {
+	font-style: italic;
+	font-size: .9em;
+	line-height: 1.5em;
+}
+ 
+.menu-item-price{
+	float: right;
+	font-weight: bold;
+	margin-top: -22px;
+}	
 
-/* Min-width */
+
+
+
+/* MEDIA QUERIES :
+MIN-WIDTH */
 @media screen and (min-width: 920px){
 	.navbar {
 		display: flex;
@@ -154,7 +213,7 @@ body {
 }
 
 
-/* Max-width */
+/* MAX-WIDTH */
 @media screen and (max-width: 919px){
 	.navbar-container {
 		height: 140px;
@@ -175,6 +234,10 @@ body {
 
 	.titre-header {
 		top: 160px;
+	}
+
+	.bloc {
+		margin-top: 140px;
 	}
 
 	.texte {
@@ -238,6 +301,10 @@ body {
 		top: 180px;
 	}
 
+	.bloc {
+		margin-top: 165px;
+	}
+
 	.texte {
 		margin-top: -15px;
 		padding: 15px;
@@ -264,5 +331,9 @@ body {
 
 	.titre-header {
 		top: 170px;
+	}
+
+	.menu-section-title {
+		margin-left: -10px;
 	}
 }
