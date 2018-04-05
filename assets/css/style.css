@@ -189,6 +189,30 @@ body {
     width: 100px;
     height: 100px; }
 
+/* GMAPS API + style */
+.gmaps1, .gmaps2 {
+  width: 350px;
+  height: 300px;
+  background-color: grey; }
+
+.gmaps1 {
+  grid-area: apiA; }
+
+.text1 {
+  grid-area: textA; }
+
+.gmaps2 {
+  grid-area: apiB; }
+
+.text2 {
+  grid-area: textB; }
+
+.apibloc {
+  overflow: hidden;
+  display: grid;
+  grid-template-areas: '. apiA . textA textA .' '. textB textB . apiB.';
+  grid-gap: 10px; }
+
 /* MEDIA QUERIES :
 MIN-WIDTH */
 @media screen and (min-width: 920px) {

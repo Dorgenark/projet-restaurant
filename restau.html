@@ -31,11 +31,26 @@
 	</nav>
 
 	<div class="bloc">
-		
+		<div class="apibloc">
+			<div class="gmaps1">
+				<iframe width="350px" height="300px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBOHd3z8qYtB8B1S0_en53YOxn9ZGgxx3Y&q=@50.845658, 4.364205" allowfullscreen></iframe>
+			</div>
+			<div class="text1">
+				<p>test1</p>
+			</div>
+
+			<div class="gmaps2" id="map"></div>
+			<div class="text2">
+				<p>test2</p>
+			</div>
+		</div>
+
 	</div>
 
 	<!--  (script JS) -->
 	<script src="assets/js/jquery-3.2.1.min.js"></script>
 	<script src="assets/js/script.js"></script>	
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOHd3z8qYtB8B1S0_en53YOxn9ZGgxx3Y&callback=initMap"></script>
 </body>
 </html>
